@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Skinventor by DMLaboratory</title>
+    <title>skinventor by dmlaboratory</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
@@ -15,16 +15,16 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Skinventor</h1>
+        <h1>skinventor</h1>
         <p>Executable Application</p>
 
-        <p class="view"><a href="https://github.com/DMLaboratory/application">View the Project on GitHub <small>DMLaboratory/application</small></a></p>
+        <p class="view"><a href="https://github.com/dmlaboratory/application">View the Project on GitHub <small>dmlaboratory/application</small></a></p>
 
 
         <ul>
-          <li><a href="https://github.com/DMLaboratory/application/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/DMLaboratory/application/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/DMLaboratory/application">View On <strong>GitHub</strong></a></li>
+          <li><a href="https://github.com/dmlaboratory/application/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/dmlaboratory/application/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/dmlaboratory/application">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
       <section>
@@ -33,12 +33,12 @@
 
 <p><img src="https://cloud.githubusercontent.com/assets/14895906/10233822/f7c5ca7e-685e-11e5-8217-715388ecec02.png" alt=""></p>
 
-<p>This application is an interoperability tool developed to translate geometrical data from other applications (Rhino, Dynamo, Grasshopper) into <strong>Autodesk Inventor</strong>. The current version of this application can only read <strong>XML</strong> data translated from other applications. </p>
+<p>This application is an interoperability tool developed to translate geometrical data from <strong>Rhino + Grasshopper</strong> into <strong>Autodesk Inventor</strong>. The current version of this application can only read <strong>XML</strong> files exported from Grasshopper or Dynamo. </p>
 
 <h3>
 <a id="inspiration" class="anchor" href="#inspiration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Inspiration</h3>
 
-<p>Inventor is a platform heavily used in fabrication and engineering which has been known to streamline design to fabrication workflows. The capabilities of this platform has enabled increased efficiency within our workflows and while a there are many advanced tools within the modeling environment, there is a need to translate data more effectively between other platforms. This posed a challenge to devise a way of developing an interoperability tool that would bridge information from conceptual designs for further analysis and parametric modeling within Inventor.</p>
+<p>Inventor is a platform heavily used in fabrication and engineering workflows for streamlining design to fabrication. Inventor has enabled increased efficiency within our own practice and while there are many advanced tools within the modeling environment such as sheet metal design, frame authoring, parametric assembly and structural analysis tools, there is still a need to translate data more effectively between other design platforms. This posed the challenge of developing an interoperability tool that would bridge information from conceptual designs in RHino into Inventor further analysis and parametric assembly modeling.</p>
 
 <p><img src="https://cloud.githubusercontent.com/assets/14895906/10233991/cfa98f5c-685f-11e5-83a8-afd2eb1819b4.png" alt="">
 <img src="https://cloud.githubusercontent.com/assets/14895906/10232570/7a86a4fe-6857-11e5-9ffe-baf5fa430ef0.png" alt="">
@@ -49,7 +49,7 @@
 <h3>
 <a id="workflows" class="anchor" href="#workflows" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflows</h3>
 
-<p>In order to get this application to function properly, you will need to generate an <strong>XML</strong> file that is organized into sets of numbers by name (ex. Points A .... Points B) with x,y,z coordinates. The application will then open a session of Autodesk Inventor and generate a Part file. A prompt will then appear to select the XML file location, afterward converting the file selection prompt to a refresh prompt. The refresh prompt can then be used to regenerate any update made to the XML file. </p>
+<p>In order for <strong>Skinventor</strong> to function properly, you will need to generate an <strong>XML</strong> file that is organized into sets of coordinate numbers by name (ex. Points A .... Points B) with x,y,z data. The application will then launch a new part file from Autodesk Inventor and a window will prompt you to select the XML file. This window will then turn into a refresh button that allows you to regenerate any updates made to the Rhino Model and XML file. </p>
 
 <h3>
 <a id="team" class="anchor" href="#team" aria-hidden="true"><span class="octicon octicon-link"></span></a>Team</h3>
@@ -57,11 +57,17 @@
 <p>Daniel Inocente &amp; Matthew Noe</p>
 
 <h3>
+<a id="resources" class="anchor" href="#resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resources</h3>
+
+<p><a href="LunchBox">http://provingground.io/tools/lunchbox/</a>
+<a href="Autodesk%20Inventor">http://www.autodesk.com/products/inventor/overview</a></p>
+
+<h3>
 <a id="built-at-aec-hackathon-2015---aec-technology-symposium-2015" class="anchor" href="#built-at-aec-hackathon-2015---aec-technology-symposium-2015" aria-hidden="true"><span class="octicon octicon-link"></span></a>Built at <a href="http://aec-technology-hackathon-2015.devpost.com/">AEC Hackathon 2015</a> - <a href="http://core.thorntontomasetti.com/event/aec-technology-symposium-2015/">AEC Technology Symposium 2015</a>
 </h3>
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/DMLaboratory">DMLaboratory</a></p>
+        <p>This project is maintained by <a href="https://github.com/dmlaboratory">dmlaboratory</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
